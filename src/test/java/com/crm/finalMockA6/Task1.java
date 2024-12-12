@@ -58,6 +58,7 @@ public class Task1 extends BaseClassDWSPage
 		
 
 	String val=td.products().getText();
+	System.out.println(val);
 	assertTrue(val.contains(value));
 
 	}
